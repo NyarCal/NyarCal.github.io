@@ -1,0 +1,240 @@
+body{
+    font: 15px/1.5 Arial,Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: darkgrey;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    
+
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #logo{
+    float: left;
+}
+header #logo h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+/*slider*/
+#slider{
+    background-image: -webkit-image-set('./images/taxi_PNG67.png');
+    min-height: 400px;
+    background: url('../images/taxi_PNG67.png');
+    text-align: center;
+    color: #ffffff; 
+   
+}
+#slider h1{
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+#slider p{
+    font-size: 20px;
+
+}
+/*products*/
+ #products{
+     margin-top: 20px;
+ }
+ #products .product{
+     float: left;
+     align-items: baseline;
+     text-align: center;
+     width: 30%;
+     padding: 10px;
+ }
+ #products .product img{
+     width: 90px;
+ }
+ /* Full-width input fields */
+ input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  /*login form css*/
+  /* Bordered form */
+  form {
+      border: 3px solid #f1f1f1;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+      opacity: 0.8;
+  }
+  
+  /* Extra style for the cancel button (red) */
+  .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: #f44336;
+  }
+  
+  /* Center the avatar image inside this container */
+  .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+  }
+  
+  /* Avatar image */
+  img.avatar {
+      width: 40%;
+      border-radius: 50%;
+  }
+  
+  /* Add padding to containers */
+  .container {
+      padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+      float: right;
+      padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+      span.psw {
+          display: block;
+          float: none;
+      }
+      .cancelbtn {
+          width: 100%;
+      }
+  }
+  
+  /*the container must be positioned relative:*/
+  .custom-select {
+    position: relative;
+    font-family: Arial;
+  }
+  
+ 
+ footer{
+     padding: 20px;
+     margin-top: 20px;
+     color: #ffffff;
+     background: #e8491d;
+     text-align: center;
+ }
