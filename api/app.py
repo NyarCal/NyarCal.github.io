@@ -60,7 +60,7 @@ def get_task(task_id):
         abort(404)
     return jsonify( { 'task': make_public_task(tasks[0]) } )
 
-@app.route('/todo/api/v1.0/tasks', methods = ['POST'])
+@app.route('/todo/api/v1.0/rides', methods = ['POST'])
 @auth.login_required
 def create_task():
     if not request.json or not 'title' in request.json:
